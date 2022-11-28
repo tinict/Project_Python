@@ -32,7 +32,7 @@ label_2.grid(column=3, row=0);
 pilImage = Image.open("D:\WorkSpace\Project\Python_Project_BKACAD\GUI_WeatherApplication\img\wearherapp.png").resize((100,100));
 test = ImageTk.PhotoImage(pilImage);
 
-label_3 = tkinter.Label(image=test);
+label_3 = tkinter.Label(image=test); 
 label_3.image = test;
 label_3.grid(column=0,row=1, padx=10, pady=20, rowspan=4, ipadx=4);
 

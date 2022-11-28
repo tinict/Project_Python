@@ -3,6 +3,6 @@ class Weather:
         self.TypeWeather = TypeWeather;
         self.temperature = temperature;
         self.humidity = humidity;
-        self.pressure = pressure
+        self.pressure = pressure; 
         self.country = country;
         self.city = city;

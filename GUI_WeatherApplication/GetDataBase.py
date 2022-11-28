@@ -9,7 +9,7 @@ response = requests.get("http://api.openweathermap.org/data/2.5/weather?q="+ 'Ha
 def response(name):
     return requests.get("http://api.openweathermap.org/data/2.5/weather?q="+ name +"&appid=fe53bfd100e8ca1c2ca47f202a2e9b9c");
 
-def getInfoData(name, key):
+def getInfoData(name, key): 
     return response(name).json()[key];
 
 def getObject(name, key1, key2):
